@@ -9,9 +9,18 @@ This project is proudly inspired by [this one](https://github.com/jlord/person-p
 
 All the flowers goes to [Jessica Lord](https://github.com/jlord) :)
 
+## Requirements
+php5-curl
+Debian systems
+```sh
+sudo apt-get install php5-curl
+```
+
+This project used the Twitter API in PHP, see more [here](https://github.com/J7mbo/twitter-api-php.git)
+
 ## Installation
 ```sh
-git clone http://github.com/ne02ptzero/my-page.git my/awesome/directory
+git clone --recurse-submodules http://github.com/ne02ptzero/my-page.git my/awesome/directory
 ```
 
 ## Configuration
