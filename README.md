@@ -20,7 +20,7 @@ This project used the Twitter API in PHP, see more [here](https://github.com/J7m
 
 ## Installation
 ```sh
-git clone --recurse-submodules http://github.com/ne02ptzero/my-page.git my/awesome/directory
+git clone http://github.com/ne02ptzero/my-page.git my/awesome/directory
 ```
 
 ## Configuration
@@ -32,12 +32,12 @@ Follow [these](http://stackoverflow.com/a/15314662) instructions.
 Now, you can configure the php :
 (generate.php:14)
 ```php
-$oauth_access_token = ""; // Access Token                                                                                
-$oauth_access_token_secret = ""; // Access token secret                       
-$consumer_key = ""; // API key         
-$consumer_secret = ""; // API key Secret                                      
-$username = ""; // Twitter Username                        
-$github_user = ""; // Github username                            
+$oauth_access_token = ""; // Access Token
+$oauth_access_token_secret = ""; // Access token secret
+$consumer_key = ""; // API key
+$consumer_secret = ""; // API key Secret
+$username = ""; // Twitter Username
+$github_user = ""; // Github username
 $mail = ""; // Your email
 ```
 And... that's it.
